@@ -1,0 +1,13 @@
+git init
+git clone URL       //link respository url
+
+git checkout -b branch2    //create new branch.
+git branch                 //current branch
+git status                 //status of git
+touch sample1.js           //create a file sample1.js
+ls                        //list files
+git status 
+git add sample1.js        //add file sample1.js 
+git commit -m "sample1.js committed" //commit sample1.js filegit 
+git push origin branch2 
+git branch -d branch1

@@ -1,0 +1,35 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+
+
+<script>
+
+$.ajax({
+    //url: 'https://app.zencoder.com/api/v2/jobs/1234/progress.js?api_key=asdf1234',
+    url : 'https://gist.githubusercontent.com/revaret/3531630dcb77f28b48d99af63fcffe79/raw/edf0c49e5fdadad8d474d6424e58dc9e97753358/something.json',
+      //url: 'http://api.flickr.com/services/feeds/photos_public.gne',
+    dataType: 'json',
+    /*headers: {
+                "Accept" : "application/json; charset=utf-8",
+                "Content-Type": "application/javascript; charset=utf-8",
+                "Access-Control-Allow-Origin" : "*"
+            },*/
+    success: function(data){// your code here
+      console.log('success', data);
+    }
+});
+
+</script>
+
+</head>
+<body>
+
+
+
+</body>
+</html>
+
+
+
+
